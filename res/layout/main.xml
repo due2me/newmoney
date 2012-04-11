@@ -5,6 +5,7 @@
     android:orientation="vertical" >
 
     <!-- test -->
+    <!-- test -->
     <LinearLayout
         android:id="@+id/panelRow1"
         android:layout_width="fill_parent"
