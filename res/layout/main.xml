@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/panelRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/amount" />
+
+        <TextView
+            android:id="@+id/amounts"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="@string/amount" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/clear" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/panelRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button 
+            android:id="@+id/number7"
+                android:text="@string/number7"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/number8"
+            android:text="@string/number8"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/number9"
+            android:text="@string/number9"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/income"
+            android:text="@string/income"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/panelRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button 
+            android:id="@+id/number4"
+                android:text="@string/number4"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/number5"
+            android:text="@string/number5"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/number6"
+            android:text="@string/number6"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/outgo"
+            android:text="@string/outgo"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/panelRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button 
+            android:id="@+id/number1"
+                android:text="@string/number1"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/number2"
+            android:text="@string/number2"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/number3"
+            android:text="@string/number3"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/list"
+            android:text="@string/list"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/panelRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button 
+            android:id="@+id/dot"
+                android:text="@string/dot"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/number0"
+            android:text="@string/number0"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/plus"
+            android:text="@string/plus"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+        <Button 
+            android:id="@+id/multiply"
+            android:text="@string/multiply"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        
+    </LinearLayout>
+
+</LinearLayout>
