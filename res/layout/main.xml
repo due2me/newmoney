@@ -5,8 +5,7 @@
     android:orientation="vertical" >
 
     <!-- test -->
-    <!-- test -->
-    <!-- asdd -->
+    
     <!-- git@github.com:singnal/newmoneybook.git -->
     <LinearLayout
         android:id="@+id/panelRow1"
