@@ -4,6 +4,8 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
+    
+    <!-- test --><!-- test -->
     <!-- test -->
     
     <!-- git@github.com:singnal/newmoneybook.git -->
@@ -18,7 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/amount" />
-
+
+
         <TextView
             android:id="@+id/amounts"
             android:layout_width="20dp"
