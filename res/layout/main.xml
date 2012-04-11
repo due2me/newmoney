@@ -6,6 +6,7 @@
 
     <!-- test -->
     <!-- test -->
+    <!-- git@github.com:singnal/newmoneybook.git -->
     <LinearLayout
         android:id="@+id/panelRow1"
         android:layout_width="fill_parent"
