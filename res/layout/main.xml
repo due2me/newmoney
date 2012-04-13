@@ -9,24 +9,24 @@
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content" >"
 
-    <TextView
-		android:id="@+id/reasonslist"
+            <TextView
+	        android:id="@+id/reasonslist"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="@string/reasonslist" />
 		
-	<LinearLayout
-	android:id="@+id/setting"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	android:orientation="vertical" >"
-	<Button
-		android:id="@+id/settings"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_gravity="right"
-		android:text="@string/settings"/>
-	</LinearLayout>
+	    <LinearLayout
+	    android:id="@+id/setting"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >"
+		<Button
+		    android:id="@+id/settings"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="right"
+		    android:text="@string/settings"/>
+            </LinearLayout>
 
     </LinearLayout>
 		
