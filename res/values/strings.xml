@@ -5,6 +5,8 @@
     <string name="app_name">MoneyBookBeta</string>
     
     <!-- surface -->
+    <string name="reasonslist">reasons:</string>
+    <string name="settings">settings</string>
     <string name="amount">amount</string>
     <string name="clear">clear</string>
     <string name="income">income</string>

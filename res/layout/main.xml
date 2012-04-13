@@ -4,15 +4,32 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
+	<LinearLayout
+	android:id="@+id/title"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >"
 
-    <!-- close to succuss! -->
-    <!-- you are right! -->
-    <!-- sylar -->
-    <!-- git!!! -->
-    <!-- test --><!-- test -->
-    <!-- test -->
-    
-    <!-- git@github.com:singnal/newmoneybook.git -->
+    <TextView
+		android:id="@+id/reasonslist"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/reasonslist" />
+		
+	<LinearLayout
+	android:id="@+id/setting"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >"
+	<Button
+		android:id="@+id/settings"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:text="@string/settings"/>
+	</LinearLayout>
+
+    </LinearLayout>
+		
     <LinearLayout
         android:id="@+id/panelRow1"
         android:layout_width="fill_parent"
